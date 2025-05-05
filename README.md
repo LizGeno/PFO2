@@ -1,12 +1,4 @@
-# Mi primer sitio web
-
-Este proyecto fue creado como práctica de HTML y CSS. Contiene una estructura básica y algunos estilos simples.
-
-## Archivos incluidos
-
-- `index.html`
-- `style.css`
-- `README.md`
+# Práctica Formativa Obligatoria 2 - Landing Page de Portafolio Personal
 
 ## Autor
 
@@ -71,3 +63,12 @@ Controlar la visibilidad mediante clases mantiene el código limpio y ordenado: 
 **2. Mejora estética y experiencia de usuario:**
 
 Al evitar que el contenedor deje un espacio visible al ocultarse, y al mostrarlo con una transición animada, la interacción se vuelve más fluida y agradable. El sitio se percibe más profesional y dinámico.
+
+## CAPTURAS 
+###  Captura de la versión anterior
+
+![Versión anterior](./IMG/README capturas/cap3_mostrar ocultar habilidades.png)
+
+## Captura con las mejoras aplicadas
+
+![Versión mejorada](./IMG/README capturas/cap1_mostrar-ocultar_habilidades.png)
