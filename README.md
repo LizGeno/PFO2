@@ -67,8 +67,8 @@ Al evitar que el contenedor deje un espacio visible al ocultarse, y al mostrarlo
 ## CAPTURAS 
 ###  Captura de la versión anterior
 
-![Versión anterior](IMG/README capturas/cap3_mostrar ocultar habilidades.png)
+![Versión anterior](https://github.com/LizGeno/PFO2/raw/main/IMG/README%20capturas/cap3_mostrar%20ocultar%20habilidades.png)
 
 ## Captura con las mejoras aplicadas
 
-![Version mejorada]([IMG/README capturas/cap3_mostrar ocultar habilidades.png](https://raw.githubusercontent.com/LizGeno/PFO2/main/IMG/README%20capturas/cap1_mostrar-ocultar_habilidades.png)
+![Version mejorada](https://raw.githubusercontent.com/LizGeno/PFO2/main/IMG/README%20capturas/cap1_mostrar-ocultar_habilidades.png)
