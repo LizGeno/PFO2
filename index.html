@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio Personal</title>
+    <!-- enlace a css -->
+     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- enlace a GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 1. Sección de Encabezado -->
+  <header class="header">
+    <div class="header-content">
+    <div class="header-text">
+    <h1>Elizabeth Geno</h1> 
+    <p> Individual Landing Page - Portfolio Personal </p>
+    </div>
+    </div>    
+  </header>
+
+  <!-- 2. Sección de Navegación -->
+  <nav class ="nav-barra">
+    <ul class="nav-list">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#peliculas">Peliculas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <!-- modo oscuro -->
+  <div class="modo-oscuro-nav">
+    <label class="btn-modo">
+      <input type="checkbox" id="modoOscuro">
+      <span class="fondo-interruptor"></span>
+      <span class="etiqueta">🌙</span>
+    </label>
+  </div>
+  </nav>
+  
+  <!-- 3. Sección Principal - main -->
+  <main>
+  <section id="sobre-mi" class="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>
+      Soy abogada y estudiante de desarrollo de software con un fuerte interés en la tecnología, 
+      la ciberseguridad y el análisis de datos. Me apasiona comprender cómo funcionan las cosas 
+      y traducir problemas complejos en soluciones prácticas. 
+      Mi objetivo como desarrolladora es crear herramientas que integren lo legal 
+      con lo tecnológico, enfocándome en la prevención de riesgos digitales y la toma de decisiones informadas.
+      </p>
+      <img src="IMG/yo-ghibli.jpg" alt="Foto de E.G" class="mi-foto">
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades" class="habilidades">
+    <h2>Habilidades</h2>
+    <button id="toggle-habilidades" class="btn-mostrar-ocultar">Mostrar Detalles</button>
+    <div id="habilidades-contenido" class="tarjetas">
+    
+    <div class="tarjeta-ind">
+        <h3>Tecnologías que domino</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="tarjeta-ind">
+        <h3>Tecnologías que quiero aprender</h3>
+        <ul>
+          <li>React</li>
+          <li>Python</li> 
+          <li>Node.js</li>
+          <li>Machine Learning</li>          
+        </ul>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="tarjeta-ind">
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Leer</li>
+            <li>Cine</li>
+            <li>Jugar videojuegos</li>
+        </ul>
+    </div>
+  </div>
+</section>
+<!-- PROYECTOS -->
+  <section id="proyectos" class="proyectos">
+    <h2>Proyectos</h2>
+    <p>Actualmente me encuentro trabajando en mis primeros proyectos. </p>
+    <button id="toggle-proyectos" class="btn-mostrar-ocultar">Mostrar Detalles</button>
+    <div id="proyecto-placeholder" class="proyecto-placeholder">
+      <p>¡Pronto vas a poder verlos acá!</p>
+    </div>
+  </section>
+
+<!-- PELICULAS -->
+  <section id="peliculas" class="peliculas">
+    <h2>Peliculas Favoritas</h2>
+    <div class="contenedor-peliculas" id="contenedor-peliculas">
+    
+  </div>
+  </section>
+
+  <!-- FORMULARIO -->
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>Podés escribirme a elizabeth@email.com</p>
+    
+    <!-- Formulario de contacto -->
+    <form action="#" method="POST" class="form-contacto">
+    
+    <!-- Campo Nombre -->
+    <label for="nombre" class="label">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" class="input" required>
+    
+    <!-- Campo Apellido -->
+    <label for="apellido" class="label">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" class="input" required>
+    
+    <!-- Campo Email -->
+    <label for="email" class="label">Email:</label>
+    <input type="email" id="email" name="email" class="input" required>
+    
+    <!-- Campo Teléfono -->
+    <label for="telefono" class="label">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" class="input" required>
+
+    <!-- Botón de Enviar -->
+    <button type="submit" class="btn-enviar">Enviar</button>
+
+    <!-- POP-UP -->
+    <div id="popup-enviado" class="popup-enviado">
+      <p>Mensaje enviado correctamente</p>
+      <button type="button" id="cerrar-popup">Cerrar</button>
+    </div>
+    </form>
+  </section>
+</main>
+
+<script src="JS/script.js"></script>
+</body>
+<!-- FOOTER -->
+<footer class="footer">
+  <p>&copy; 2025 Elizabeth Geno. Todos los derechos reservados.</p>
+  <div class="redes-sociales">
+    <a href="" target="_blank">LinkedIn</a>
+    <a href="https://github.com/LizGeno" target="_blank">GitHub</a>
+    <a href="">Email</a>    
+  </div>
+
+</footer>
+</html>
