@@ -71,4 +71,4 @@ Al evitar que el contenedor deje un espacio visible al ocultarse, y al mostrarlo
 
 ## Captura con las mejoras aplicadas
 
-![Versión mejorada](IMG/README capturas/cap1_mostrar-ocultar_habilidades.png)
+![Version mejorada](IMG/README capturas/cap3_mostrar ocultar habilidades.png)
